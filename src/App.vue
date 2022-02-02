@@ -1,28 +1,48 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Slides/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Slides from './components/Slides.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Slides
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body {
+  background: #000;
+  margin: 0;
+}
+/** full screen on mobile & fixed size on desktop **/
+.vue-insta-stories {
+  position: absolute;
+  height: 100vh;
+  height: -webkit-fill-available;
+  width: 100vw;
+  top: 0;
+}
+
+.vue-insta-stories .timeline {
+  width: 100vw;
+}
+
+.vue-insta-stories img {
+  width: 100vw !important;
+  margin: auto 0 !important;
+}
+
+@media (max-width: 768px) {
+  .vue-insta-stories {
+    position: relative;
+    height: 730px;
+    width: 420px;
+  }
 }
 </style>
