@@ -30,7 +30,7 @@ body {
 }
 
 .vue-insta-stories .timeline {
-  width: 100vw;
+  width: 100vw !important;
 }
 
 @media (max-width: 768px) {
