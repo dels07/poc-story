@@ -33,16 +33,16 @@ body {
   width: 100vw;
 }
 
-.vue-insta-stories img {
-  width: 100vw !important;
-  margin: auto 0 !important;
-}
-
 @media (max-width: 768px) {
   .vue-insta-stories {
     position: relative;
     height: 730px;
     width: 420px;
+  }
+
+  .vue-insta-stories img {
+    width: 100vw !important;
+    margin: auto 0 !important;
   }
 }
 </style>
