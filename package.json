@@ -10,6 +10,7 @@
   "dependencies": {
     "@vue/composition-api": "^1.4.5",
     "core-js": "^3.6.5",
+    "file-saver": "^2.0.5",
     "vue": "^2.6.11",
     "vue-insta-stories": "^0.9.3"
   },
