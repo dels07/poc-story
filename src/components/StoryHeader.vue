@@ -35,7 +35,6 @@
     color: #FFF;
     margin-left: 8px;
     margin-top: 8px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 </style>
 

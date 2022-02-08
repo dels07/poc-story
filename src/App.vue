@@ -19,6 +19,7 @@ export default {
 body {
   background: #000;
   margin: 0;
+  font-family: 'Helvetica Neue', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /** full screen on mobile & fixed size on desktop **/
 .vue-insta-stories {
