@@ -34,6 +34,11 @@ body {
   width: 100vw !important;
 }
 
+.see-more-wrapper .see-more {
+  width: 100vw !important;
+  background: transparent;
+}
+
 @media (max-width: 768px) {
   .vue-insta-stories {
     position: relative;
@@ -44,6 +49,10 @@ body {
   .vue-insta-stories img {
     width: 100vw !important;
     margin: auto 0 !important;
+  }
+
+  .see-more-wrapper .see-more {
+    bottom: 64px !important;
   }
 }
 </style>
